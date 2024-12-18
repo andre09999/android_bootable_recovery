@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:repo="http://gerrit.googlesource.com/git-repo" version="1">
+    <!-- Definições do repositório remoto -->
+    <remote name="github" fetch="https://github.com/andre09999/" />
+    
+    <!-- Definindo a revisão padrão e o repositório remoto -->
+    <default revision="android-12.1" remote="github" />
+
+    <!-- Definindo o projeto de recuperação (TWRP) -->
+    <project name="android_bootable_recovery" path="android_bootable_recovery" />
+</manifest>
+
